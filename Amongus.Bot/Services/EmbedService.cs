@@ -38,7 +38,7 @@ namespace Amongus.Bot.Services
                 Color = Color.Green,
                 Description = $"```Q - Kill{Environment.NewLine}R - Report" +
                 $"{Environment.NewLine}E - Interact{Environment.NewLine}WASD - Walk" +
-                $"{Environment.NewLine}Space - Interact{Environment.NewLine}Mouse 1 - Interact```",
+                $"{Environment.NewLine}Space - Interact{Environment.NewLine}Mouse 1 - Interact{Environment.NewLine}Tab - Map with tasks```",
                 Footer = new EmbedFooterBuilder { Text = "Turn on Mouse + keyboard" }
             };
         }
