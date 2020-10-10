@@ -66,7 +66,7 @@ namespace Amongus.Bot
 
             services.AddTransient<EmbedService>();
 
-            services.Configure<DiscordConfiguration>(options => _configuration.GetSection("Discord").Bind(options));
+            services.Configure<DiscordConfiguration>(options => _configuration.GetSection("Discord-Amongus").Bind(options));
 
             return services;
         }
