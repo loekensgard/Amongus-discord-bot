@@ -49,7 +49,7 @@ namespace Amongus.Bot.Services
             return new EmbedBuilder
             {
                 Color = Color.Green,
-                Description = $"```1. Right click Amoung us{Environment.NewLine}2. Click properties{Environment.NewLine}3. Click betas{Environment.NewLine}4. Choose version```"
+                Description = $"```1. Right click Amoug us{Environment.NewLine}2. Click properties{Environment.NewLine}3. Click betas{Environment.NewLine}4. Choose version```"
             };
         }
 
