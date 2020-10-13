@@ -46,6 +46,15 @@ namespace Amongus.Bot.Modules
             await ReplyAsync(null, false, builder.Build());
         }
 
+        [Command("beta", RunMode = RunMode.Async)]
+        [Summary("Get keybinds")]
+        public async Task Beta()
+        {
+            var builder = _embedService.EmbedBeta();
+
+            await ReplyAsync(null, false, builder.Build());
+        }
+
 
         [Command("maps", RunMode = RunMode.Async)]
         [Summary("Get maps")]

@@ -36,10 +36,20 @@ namespace Amongus.Bot.Services
             return new EmbedBuilder
             {
                 Color = Color.Green,
-                Description = $"```Q - Kill{Environment.NewLine}R - Report" +
+                Description = $"```Everyone:{Environment.NewLine}R - Report" +
                 $"{Environment.NewLine}E - Interact{Environment.NewLine}WASD - Walk" +
-                $"{Environment.NewLine}Space - Interact{Environment.NewLine}Mouse 1 - Interact{Environment.NewLine}Tab - Map with tasks```",
+                $"{Environment.NewLine}Space - Interact{Environment.NewLine}Mouse 1 - Interact{Environment.NewLine}Tab - Map with tasks{Environment.NewLine}{Environment.NewLine}Imposters:" +
+                $"{Environment.NewLine}Q - Kill{Environment.NewLine}E - Sabotage```",
                 Footer = new EmbedFooterBuilder { Text = "Turn on Mouse + keyboard" }
+            };
+        }
+
+        public EmbedBuilder EmbedBeta()
+        {
+            return new EmbedBuilder
+            {
+                Color = Color.Green,
+                Description = $"```1. Right click Amoung us{Environment.NewLine}2. Click properties{Environment.NewLine}3. Click betas{Environment.NewLine}4. Choose version```"
             };
         }
 
